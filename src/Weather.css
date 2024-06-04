@@ -1,4 +1,4 @@
-h2 {
-  background-color: brown;
-  color: blanchedalmond;
+.temperature-container {
+  display: flex;
+  flex-direction: row;
 }
