@@ -11,10 +11,15 @@ export default function Weather() {
               type="search"
               placeholder="Enter a city..."
               className="form-control"
+              autoFocus="on"
             />
           </div>
           <div className="col-3">
-            <input type="submit" value="Search" className="btn btn-primary" />
+            <input
+              type="submit"
+              value="Search"
+              className="btn btn-primary w-100"
+            />
           </div>
         </div>
       </form>
@@ -26,14 +31,15 @@ export default function Weather() {
             <li>Broken Clouds</li>
           </ul>
           <div className="temperature-container">
-            <div className="temperature">23</div>
-            <div className="units">°C | °F</div>
+            <span className="temperature">23</span>
+            <span className="units">°C | °F</span>
           </div>
         </div>
         <div className="col-5 iconBlock">
           <img
             src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-night.png"
             alt="broken-clouds"
+            width="170"
           />
           <br />
           <ul>

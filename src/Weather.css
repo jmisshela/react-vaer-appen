@@ -1,4 +1,36 @@
-.temperature-container {
-  display: flex;
-  flex-direction: row;
+.Weather {
+  background-color: #f4f4f485;
+  padding: 30px 20px;
+  margin: 0 auto;
+  border: 1px solid pink;
+  border-radius: 20px;
+}
+
+.Weather h1 {
+  display: block;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: left;
+  margin: 20px 0 0 0;
+}
+
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Weather li {
+  font-size: 16px;
+  font-weight: 300;
+  list-style-type: none;
+  line-height: 21px;
+}
+
+.Weather .temperature {
+  font-size: 120px;
+  font-weight: 600;
+}
+
+.Weather .row {
+  max-width: 100%;
 }
