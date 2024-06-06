@@ -6,7 +6,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <h1>Velkommen til reactværappen!</h1>
-        <Weather />
+        <Weather defaultCity="Stavanger" />
         <br />
         <footer>
           This project was coded by{" "}
