@@ -45,5 +45,7 @@
 
 .Weather .btn {
   background-color: #1d1f4e;
-  border-radius: 30px;
+  border: #1d1f4e;
+  border-radius: 10px;
+  padding: 8px 3px;
 }

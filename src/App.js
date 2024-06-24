@@ -5,7 +5,6 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Velkommen til reactværappen!</h1>
         <Weather defaultCity="Oslo" />
         <br />
         <footer>
@@ -16,7 +15,7 @@ export default function App() {
             rel="noreferrer"
           >
             {" "}
-            Jane Misshela
+            <strong>Jane Misshela</strong>
           </a>
           , it is open-sourced on{" "}
           <a
@@ -24,7 +23,7 @@ export default function App() {
             target="_blank"
             rel="noreferrer"
           >
-            GitHub
+            <strong>GitHub</strong>
           </a>{" "}
           and hosted on{" "}
           <a
@@ -32,12 +31,12 @@ export default function App() {
             target="_blank"
             rel="noreferrer"
           >
-            Netlify
+            <strong>Netlify</strong>
           </a>
           <br />
           Image by{" "}
           <a href="https://freepik.com" target="_blank" rel="noreferrer">
-            Freepik
+            <strong>Freepik</strong>
           </a>
         </footer>
       </div>
