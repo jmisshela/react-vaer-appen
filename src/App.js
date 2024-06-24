@@ -34,6 +34,11 @@ export default function App() {
           >
             Netlify
           </a>
+          <br />
+          Image by{" "}
+          <a href="https://freepik.com" target="_blank" rel="noreferrer">
+            Freepik
+          </a>
         </footer>
       </div>
     </div>

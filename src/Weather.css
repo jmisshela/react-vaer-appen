@@ -1,9 +1,16 @@
 .Weather {
   background-color: #f4f4f485;
-  padding: 30px 20px;
+  padding: 50px 40px;
   margin: 0 auto;
   border: 1px solid pink;
   border-radius: 20px;
+}
+
+.Weather .form-control {
+  background-color: #f4f4f400;
+  border: none;
+  border-bottom: 1px solid #1d1f4e;
+  margin-bottom: 20px;
 }
 
 .Weather h1 {
@@ -27,11 +34,16 @@
 }
 
 .Weather canvas {
-  margin-top: 30px;
+  margin: 20px 0;
   display: inline-block;
 }
 
 .Weather .temperature {
   font-size: 120px;
   font-weight: 600;
+}
+
+.Weather .btn {
+  background-color: #1d1f4e;
+  border-radius: 30px;
 }
